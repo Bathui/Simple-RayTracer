@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/color.cpp.o CMakeFiles/main.dir/vec3.cpp.o -o main 

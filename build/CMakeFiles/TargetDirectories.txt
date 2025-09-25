@@ -1,0 +1,3 @@
+/mnt/e/computer science/Simple-RayTracer/build/CMakeFiles/main.dir
+/mnt/e/computer science/Simple-RayTracer/build/CMakeFiles/edit_cache.dir
+/mnt/e/computer science/Simple-RayTracer/build/CMakeFiles/rebuild_cache.dir
