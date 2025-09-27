@@ -177,6 +177,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+ray.o: ray.cpp.o
+.PHONY : ray.o
+
+# target to build an object file
+ray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ray.cpp.o
+.PHONY : ray.cpp.o
+
+ray.i: ray.cpp.i
+.PHONY : ray.i
+
+# target to preprocess a source file
+ray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ray.cpp.i
+.PHONY : ray.cpp.i
+
+ray.s: ray.cpp.s
+.PHONY : ray.s
+
+# target to generate assembly for a file
+ray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ray.cpp.s
+.PHONY : ray.cpp.s
+
 vec3.o: vec3.cpp.o
 .PHONY : vec3.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... ray.o"
+	@echo "... ray.i"
+	@echo "... ray.s"
 	@echo "... vec3.o"
 	@echo "... vec3.i"
 	@echo "... vec3.s"

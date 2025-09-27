@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/e/computer science/Simple-RayTracer/color.cpp" "CMakeFiles/main.dir/color.cpp.o" "gcc" "CMakeFiles/main.dir/color.cpp.o.d"
   "/mnt/e/computer science/Simple-RayTracer/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
+  "/mnt/e/computer science/Simple-RayTracer/ray.cpp" "CMakeFiles/main.dir/ray.cpp.o" "gcc" "CMakeFiles/main.dir/ray.cpp.o.d"
   "/mnt/e/computer science/Simple-RayTracer/vec3.cpp" "CMakeFiles/main.dir/vec3.cpp.o" "gcc" "CMakeFiles/main.dir/vec3.cpp.o.d"
   )
 

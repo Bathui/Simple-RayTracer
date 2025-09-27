@@ -7,4 +7,5 @@ add_executable(main
     main.cpp
     color.cpp
     vec3.cpp
+    ray.cpp
 )

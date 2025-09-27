@@ -1,6 +1,9 @@
-CMakeFiles/main.dir/main.cpp.o: \
- /mnt/e/computer\ science/Simple-RayTracer/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
+CMakeFiles/main.dir/ray.cpp.o: \
+ /mnt/e/computer\ science/Simple-RayTracer/ray.cpp \
+ /usr/include/stdc-predef.h \
+ /mnt/e/computer\ science/Simple-RayTracer/ray.h \
+ /mnt/e/computer\ science/Simple-RayTracer/vec3.h \
+ /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -145,11 +148,8 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc \
- /mnt/e/computer\ science/Simple-RayTracer/color.h \
- /mnt/e/computer\ science/Simple-RayTracer/vec3.h \
- /usr/include/c++/11/cmath /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -170,5 +170,4 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
- /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /mnt/e/computer\ science/Simple-RayTracer/ray.h
+ /usr/include/c++/11/tr1/riemann_zeta.tcc

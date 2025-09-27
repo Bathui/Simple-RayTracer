@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/color.cpp.o.d"
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o.d"
+  "CMakeFiles/main.dir/ray.cpp.o"
+  "CMakeFiles/main.dir/ray.cpp.o.d"
   "CMakeFiles/main.dir/vec3.cpp.o"
   "CMakeFiles/main.dir/vec3.cpp.o.d"
   "main"
