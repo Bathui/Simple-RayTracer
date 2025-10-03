@@ -1,11 +1,25 @@
 #include <iostream>
+#include <cmath>
 #include "color.h"
 #include "ray.h"
 
+bool hit_sphere(const point3& center, double radius, const ray& r){
+    vec3 oc = center - r.origin();
+    auto a = dot(r.direction(), r.direction());
+    auto b = dot(-2.0 * r.direction(), oc);
+    auto c = dot(oc, oc) - radius * radius;
+
+    auto determinant = std::pow(b, 2) - 4 * a * c;
+    return (determinant >= 0);
+}
+
 color ray_color (const ray& r) {
+    if (hit_sphere(point3(0, 0, -1), 0.5, r))
+        return color(0, 0, 1);
+
     vec3 unit_direction = unit_vector(r.direction());
     auto t = 0.5 * (unit_direction.y() - (-1));
-    return (1.0 - t)t * color(1.0, 1.0, 1.0) + t * color(0.5, 0.7, 1.0);
+    return (1.0 - t) * color(1.0, 1.0, 1.0) + t * color(0.5, 0.7, 1.0);
 }
 
 int main() {
@@ -51,5 +65,5 @@ int main() {
         }
     }
 
-    std::clog << "\rDone.     \n";
+    std::clog << "\rDone.     \n";  
 }
