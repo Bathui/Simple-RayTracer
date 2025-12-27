@@ -1,5 +1,5 @@
 #include "vec3.h"
-
+#include <iostream>
 vec3& vec3::operator+= (const vec3& v){
     e[0] += v.e[0];
     e[1] += v.e[1];
